@@ -13,6 +13,9 @@ N/A
 To use the website, click the pink "Start Quiz!" button and answer each question as they appear on the screen. Once the quiz is finished, you will be given a score and will have the opportunity to save your score and initials to the leaderboard. The quiz can be take as many times as desired. 
 
 Link to deployed webpage:
+https://ktullock.github.io/JavaScript-Quiz/
+
+![a screenshot the JavaScript Quiz](https://user-images.githubusercontent.com/114691965/200743277-ee9627a0-ca50-4d4e-92db-691d6f4239df.png)
 
 
 ## Credits
