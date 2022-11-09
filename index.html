@@ -11,55 +11,55 @@
     <header>
         <div class="timer">Timer 00:30</div>
     </header>
-
-    <section>
-        <div id="start">
-            <h2>JavaScript Quiz</h2>
-            <p>
-                Welcome to the JavaScript quiz! Test your knowledge of basic JavaScript. 
-                 You'll be quized on 3 JavaScript questions over 30 seconds. Once completed, you'll be presented
-                 with your score and can then save your score to the leaderboard. Good luck! 
-            </p>
-            <button id="start-timer">Start Quiz!</button>
-        </div>
-        <div id="Q1" class="questions">
-            <h3>In what case is JavaScript typically written?</h3>
-            <button class="correct">Camel</button>
-            <button>Pascal</button>
-            <button>Snake</button>
-            <button>Kebab</button>
-            <h4 class="comment"></h4>
-        </div>
-        <div id="Q2" class="questions">
-            <h3>How should you enclose an array?</h3>
-            <button>{Curly Braces}</button>
-            <button>(Parentheses)</button>
-            <button>"Quotes"</button>
-            <button class="correct">[Brackets]</button>
-            <h4 class="comment"></h4>
-        </div>
-        <div id="Q3" class="questions">
-            <h3>Which of the following is not a comparison opperator?"</h3>
-            <button>!==</button>
-            <button class="correct">==></button>
-            <button>===</button>
-            <button>>=</button>
-            <h4 class="comment"></h4>
-        </div>
-        <div id="finished">
-            <h3>Finished!</h3>
-            <p id="score">Your score: </p>
-            <label for="intitials">Please enter your intitials: </label>
-            <input type="text" id="initials" name="Initials" placeholder="Initials">
-            <button id="submit">Submit</button>
-        </div>
-        <div id="leaderboard">
-            <h2>Leaderboard</h2>
-            <ul id="scores-list"></ul>
-            <button id="return">Play again!</button>
-        </div>
+    <section id="card">
+    <div id="start">
+        <h2>Javascript coding quiz</h2>
+        <p>
+            Welcome to the JavaScript quiz! Test your knowledge of basic JavaScript. 
+            You'll be quized on 3 JavaScript questions over 30 seconds. Once completed, you'll be presented
+            with your score and can then save your score to the leaderboard. Good luck! 
+        </p>
+        <button class="start-timer">Start Quiz</button>
+    </div>
+    <div id="Q1" class="questions">
+        <h2>1) In what case is JavaScript typically written?</h2>
+        <button class="Q1-right">Camel</button>
+        <button>Pascal</button>
+        <button>Snake</button>
+        <button>Kebab</button>
+        <h3 id="Q1-comment"></h3>
+    </div>
+    <div id="Q2" class="questions">
+        <h2>2) How should you enclose an array?</h2>
+        <button>{Curly Braces}</button>
+        <button>(Parentheses)</button>
+        <button>"Quotes"</button>
+        <button class="Q2-right">[Brackets]</button>
+        <h3 id="Q2-comment"></h3>
+    </div>
+    <div id="Q3" class="questions">
+        <h2>3) Which of the following is not a valid comparison opperator?</h2>
+        <button>!==</button>
+        <button class="Q3-right">==></button>
+        <button>===</button>
+        <button>>=</button>
+        <h3 id="Q3-comment"></h3>
+    </div>
+    <div id="finished">
+        <h2>Finished!</h2>
+        <p id="finished-score">Your score: </p>
+        <label for="initials">Please enter your intitials: </label>
+        <input type="text" id="initials" name="Initials" placeholder="Initials">
+        <button id="submit">Submit</button>
+        <h3></h3>
+    </div>
+    <div id="leaderboard">
+        <h2>Leaderboard</h2>
+        <ul id="scores-list">
+        </ul>
+        <button id="return">Play again!</button>
+    </div>
     </section>
-
     <script src="./Assets/script.js"></script>
 </body>
 </html>
